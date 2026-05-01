@@ -20,9 +20,12 @@ export function Home() {
     >
       {/* Header */}
       <header className="flex items-center justify-between pt-4">
-        <div>
-          <h1 className="text-xl font-bold text-slate-900">Hello, User 👋</h1>
-          <p className="text-sm text-slate-500">Ready to send money offline?</p>
+        <div className="flex items-center gap-3">
+          <img src="/logo.jpg" alt="SanPay Logo" className="w-12 h-12 object-contain rounded-xl" />
+          <div>
+            <h1 className="text-xl font-bold text-slate-900">SanPay</h1>
+            <p className="text-xs text-slate-500 font-medium">Offline UPI Mesh</p>
+          </div>
         </div>
         <div className="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-brand-700 font-bold">
           U
