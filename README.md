@@ -76,4 +76,4 @@ The frontend is a beautifully designed, mobile-first web app that connects direc
 4. Hit **Send**. You will be redirected to the status page. It will stay in "PENDING" or "Routing" state.
 5. In a real scenario, the app would gossip. You can trigger this programmatically on the backend by sending a POST request to `http://localhost:8080/api/mesh/gossip`.
 6. To settle the transaction, simulate a bridge node getting internet by calling `POST http://localhost:8080/api/mesh/flush`.
-7. Your frontend status will update to **SUCCESS**!
+7. Your frontend status will update to **SUCCESS**
